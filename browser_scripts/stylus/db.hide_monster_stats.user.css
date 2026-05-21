@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         DuelingBook: Hide monster stats
+@description  Simple CSS tweak to hide monster stats
+@namespace    https://add0n.com/stylus.html
+@version      1.0
+@author       vivaria
+@homepageURL  https://github.com/vivaria/edison-scripts-public
+@supportURL   https://github.com/vivaria/edison-scripts-public/issues
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.duelingbook.com/replay") {
+    .field_stats {
+        display: none !important;
+    }
+}
