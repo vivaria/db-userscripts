@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name         DuelingBook: Enlarge Replay Buttons (Mobile)
+@description  Enlarges and repositions replay controls for mobile usability
+@namespace    https://add0n.com/stylus.html
+@version      1.0
+@author       vivaria
+@homepageURL  https://github.com/vivaria/edison-scripts-public
+@supportURL   https://github.com/vivaria/edison-scripts-public/issues
+@license      MIT
+@preprocessor stylus
+==/UserStyle== */
+
+@-moz-document domain("duelingbook.com") {
+  #play_btn,
+  #pause_replay_btn,
+  #next_btn,
+  #fast_btn {
+    opacity: 1 !important;
+    position: fixed !important;
+    right: 10px;          /* Stick to the right side */
+    width: 800px;         /* Fixed width for a nice tappable size */
+    height: 150px;        /* Square buttons */
+    font-size: 72px;
+  }
+
+  /* Stack vertically with spacing by adjusting 'top' */
+  #play_btn        { top: 750px;  }
+  #pause_replay_btn { top: 950px;  }
+  #next_btn        { top: 1150px; }
+  #fast_btn        { top: 1350px; }
+}
