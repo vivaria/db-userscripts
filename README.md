@@ -1,3 +1,4 @@
-## Edison scripts
+## DuelingBook Userscripts
 
-A collection of Python scripts, userscripts, and userstyles for DuelingBook, FormatLibrary, and other various Edison-related projects.
+A collection of userscripts and userstyles for DuelingBook.
+
